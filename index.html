@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <link href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .gallery-item {
+            margin: 10px;
+            text-align: center;
+        }
+        .gallery-item img {
+            max-width: 100px;
+            max-height: 100px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            padding: 5px;
+        }
+        .icon-bar {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .icon-bar span {
+            font-size: 24px;
+            margin: 0 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="gallery">
+        <div class="gallery-item">
+            <img src="http://placekitten.com/100/100" alt="Cute Kitty">
+            <h3>Cute Kitty</h3>
+            <p>So photogenic!</p>
+            <a href="http://placekitten.com">More Cats</a>
+        </div>
+        <div class="gallery-item">
+            <img src="http://place-puppy.com/100x100" alt="Silly Puppy">
+            <h3>Silly Puppy</h3>
+            <p>So curious!</p>
+            <a href="http://place-puppy.com">More Dogs</a>
+        </div>
+        <div class="gallery-item">
+            <img src="https://placebear.com/100/100" alt="Fluffy Bear">
+            <h3>Fluffy Bear</h3>
+            <p>Aww a bear!</p>
+            <a href="https://placebear.com/">More Bears</a>
+        </div>
+        <div class="gallery-item">
+            <img src="http://lorempixel.com/100/100/" alt="Random Pic">
+            <h3>Random Image</h3>
+            <p>Is It Good!?</p>
+            <a href="http://lorempixel.com/">Random Pic</a>
+        </div>
+    </div>
+    <div class="icon-bar">
+        <span><i class="fas fa-camera-retro"></i></span>
+        <span><i class="fas fa-anchor"></i></span>
+        <span><i class="fas fa-bacon"></i></span>
+        <span><i class="fas fa-motorcycle"></i></span>
+        <span><i class="fas fa-chess-knight"></i></span>
+        <span><i class="fas fa-pie"></i></span>
+    </div>
+</body>
+</html>
